@@ -1,6 +1,4 @@
-$(document).ready(function () {  
-
-  $.each(portfolio, function(i, item) {
+$.each(portfolio, function(i, item) {
     if (typeof item === 'object') {
       var re = new RegExp('[^"\t]+', 'g')
       var topic = re.exec(JSON.stringify(i))
@@ -24,5 +22,4 @@ $(document).ready(function () {
   else {
     $(".portfolio").append("<li><b>" + i + "</b> &nbsp; " + item + "</li><br>");
   };
-  });
 });
