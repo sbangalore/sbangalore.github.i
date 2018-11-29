@@ -36,88 +36,10 @@
 </div>
 
 
-<script
-src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
 </script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-
-<script>
-  $(document).ready(function () {
-      var portfolio = {
-        'contact': {
-          'email': 'bsudarshan(at)outlook(dot)com',
-          'twitter': '<a href="https://twitter.com/seanatyyz">@seanatyyz</a>',
-          'location': 'toronto',
-          'linkedin': '<a href="https://www.linkedin.com/in/sudarshanbangalore/">sudarshanbangalore</a>',
-          'seekingalpha': '<a href="https://seekingalpha.com/author/sudarshan-bangalore">profile</a>',
-          'github': '<a href="https://github.com/sbangalore">sbangalore</a>'
-        },
-        'experience': {
-          '2018': 'machine learning and sales at Amazon',
-          '2017': 'SAAS startup, research assistant',
-          '2016': 'analytics at Philip Morris International',
-          '2015': 'strategy + tech consulting startup',
-          '2014': 'sales at private equity and VC consulting firm'
-        },
-        'finance': {
-          'valuations':
-          [
-          '<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a>',
-          '<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
-          '<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
-          ]
-          ,
-          'studies':
-          {
-          }
-        },
-        'software engineering': {
-        },
-        'machine learning': {
-          'supervised-learning': {
-          },
-          'unsupervised-learning': {
-          }
-        },
-        'entrepreneurship': {
-          'startups': {
-            '<a href="https://www.rhsclinics.com">rhs clinics</a>': 'This is a recent iniative with a co-founder to change how patients access healthcare worldwide; we hope to decrease medicare costs significantly',
-            'cadence consulting': 'Cadence was a strategy consulting startup that I co-built with a partner. While initially pro-bono, I grew it to clients with national agendas',
-            'vimtrak': 'Vimtrak was a venture I co-built with a partner. We built the startup to serve elevator servicing clients by reducing elevator maintenance times by up to 50% through digitizing ticketing'
-          },
-          'cases': [
-            '<a href="../sbangalore.github.io/Resources/Images/tallink.pdf">Tallink Case Study</a>',
-            '<a href="../sbangalore.github.io/Resources/Images/lilly-ranbaxy-final.pdf">Lilly-Ranbaxy Case Study</a>'
-          ]
-        }
-      };
-      var json_obj = $.parseJSON(JSON.stringify(portfolio));
-      
-      $.each(portfolio, function(i, item) {
-        var re = new RegExp('[^"\t]+', 'g')
-        var topic = re.exec(JSON.stringify(i))
-        $(".menu").append("<li><b>" + topic + "</b><ul id=" + topic + "></ul></li><br>");
-        var topicHTML = "#" + topic;
-
-        $.each(item, function(j, inside) {
-          if (typeof inside === 'object') {
-            subtopic = "#" + j;
-            console.log(subtopic)
-            $(topicHTML).append("<li><b>" + j + "</b><ul id=" + j + "></ul></li><br>");
-            $.each(inside, function(k, interior) {
-              $(subtopic).append("<li><b>" + k + "</b> &nbsp; " + interior + "</li>");
-            });
-          }
-          else {
-            $(topicHTML).append("<li><b>" + j + "</b> &nbsp; " + inside + "</li>");
-          };
-        });
-      });
-
-    });
-  </script>
+<script type="text/javascript" src="ajax/portfolio.js"></script> 
+<script type="text/javascript" src="ajax/fillmenu.js"></script>
 
 </body>
 </html>
