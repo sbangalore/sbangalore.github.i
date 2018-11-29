@@ -1,50 +1,125 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Sudarshan Bangalore</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="custom.css" type="text/css">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sudarshan Bangalore: Portfolio and CV</title>
+  <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  <link rel="stylesheet" href="custom.css" type="text/css">
 
-  </head>
-  <body>
-    <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
-      <div class="row column">
-        <br>
-        <img class="thumbnail" src="../sbangalore.github.io/Resources/Images/profile_pic.jpg">
-        <h5>Sudarshan Bangalore</h5>
-        <p>I am a graduate with a Finance and Economics specialist from the University of Toronto and the Rotman School of Management. My current interests in computer science are in systems (networks, databases, and operating systems), software engineering, and machine learning/artificial intelligence. My interests in finance and economics include financial, entrepreneurial, supply chain, and economic strategies.</p>
+</head>
+<body>
+  <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+    <div class="row column">
+      <br>  
+    </div> 
+  </div>
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="title-bar hide-for-large">
+      <div class="title-bar-left">
+        <button class="menu-icon" type="button" data-open="my-info"></button>
+        <span class="title-bar-title">Sudarshan Bangalore</span>
       </div>
     </div>
-    <div class="off-canvas-content" data-off-canvas-content>
-      <div class="title-bar hide-for-large">
-        <div class="title-bar-left">
-          <button class="menu-icon" type="button" data-open="my-info"></button>
-          <span class="title-bar-title">Sudarshan Bangalore</span>
-        </div>
-      </div>
-      <div class="row">
-        <div class="medium-6 columns">
-          <h3>Contact Me</h3>
-          <p>Feel free to get in touch. I provide strategy, entrepreneurship, finance, and technology consulting services.</p>
-          <ul class="menu">
-            <li>bsudarshan(at)outlook(dot)com</li><br>
-            <!--<li><a href="../sbangalore.github.io/Resources/Images/tallink.pdf"></i>Tallink</a></li><br>
-            <li><a href="../sbangalore.github.io/Resources/Images/lilly-ranbaxy-final.pdf"></i>Lilly-Ranbaxy</a></li><br>-->
-          </ul>
+    <div class="row">
+      <div class="medium-12 columns">
+        <h5>Sudarshan (~Sean) Bangalore</h5>
+        <p>Hello! I am a graduate with a Finance and Economics specialist from the University of Toronto and the Rotman School of Management. I'm interested in systems (networks, databases, and operating systems), software engineering, and machine learning/artificial intelligence. I'm also interested in finance and economics including financial (technical/value) and entrepreneurial strategies.</p>
+        <ul class="menu">
+        </ul>
         </div>
       </div>
       <hr>
     </div>
-    </div>
   </div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-<script>
-  $(document).foundation();
+</div>
+
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous">
 </script>
-<script type="text/javascript" src="https://intercom.zurb.com/scripts/zcom.js"></script>
+<script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+
+<script>
+  $(document).ready(function () {
+      var portfolio = {
+        'contact': {
+          'email': 'bsudarshan(at)outlook(dot)com',
+          'twitter': '<a href="https://twitter.com/seanatyyz">@seanatyyz</a>',
+          'location': 'toronto',
+          'linkedin': '<a href="https://www.linkedin.com/in/sudarshanbangalore/">sudarshanbangalore</a>',
+          'seekingalpha': '<a href="https://seekingalpha.com/author/sudarshan-bangalore">profile</a>',
+          'github': '<a href="https://github.com/sbangalore">sbangalore</a>'
+        },
+        'experience': {
+          '2018': 'machine learning and sales at Amazon',
+          '2017': 'SAAS startup, research assistant',
+          '2016': 'analytics at Philip Morris International',
+          '2015': 'strategy + tech consulting startup',
+          '2014': 'sales at private equity and VC consulting firm'
+        },
+        'finance': {
+          'valuations':
+          [
+          '<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a>',
+          '<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
+          '<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
+          ]
+          ,
+          'studies':
+          {
+          }
+        },
+        'software engineering': {
+        },
+        'machine learning': {
+          'supervised-learning': {
+          },
+          'unsupervised-learning': {
+          }
+        },
+        'entrepreneurship': {
+          'startups': {
+            '<a href="https://www.rhsclinics.com">rhs clinics</a>': 'This is a recent iniative with a co-founder to change how patients access healthcare worldwide; we hope to decrease medicare costs significantly',
+            'cadence consulting': 'Cadence was a strategy consulting startup that I co-built with a partner. While initially pro-bono, I grew it to clients with national agendas',
+            'vimtrak': 'Vimtrak was a venture I co-built with a partner. We built the startup to serve elevator servicing clients by reducing elevator maintenance times by up to 50% through digitizing ticketing'
+          },
+          'cases': [
+            '<a href="../sbangalore.github.io/Resources/Images/tallink.pdf">Tallink Case Study</a>',
+            '<a href="../sbangalore.github.io/Resources/Images/lilly-ranbaxy-final.pdf">Lilly-Ranbaxy Case Study</a>'
+          ]
+        }
+      };
+      var json_obj = $.parseJSON(JSON.stringify(portfolio));
+
+      console.log(json_obj['contact']);
+      
+      $.each(portfolio, function(i, item) {
+        var re = new RegExp('[^"\t]+', 'g')
+        var topic = re.exec(JSON.stringify(i))
+        $(".menu").append("<li><b>" + topic + "</b><ul id=" + topic + "></ul></li><br>");
+        var topicHTML = "#" + topic;
+
+        $.each(item, function(j, inside) {
+          if (typeof inside === 'object') {
+            subtopic = "#" + j;
+            console.log(subtopic)
+            $(topicHTML).append("<li><b>" + j + "</b><ul id=" + j + "></ul></li><br>");
+            $.each(inside, function(k, interior) {
+              $(subtopic).append("<li><b>" + k + "</b> &nbsp; " + interior + "</li>");
+            });
+          }
+          else {
+            $(topicHTML).append("<li><b>" + j + "</b> &nbsp; " + inside + "</li>");
+          };
+        });
+      });
+
+    });
+  </script>
+
 </body>
 </html>

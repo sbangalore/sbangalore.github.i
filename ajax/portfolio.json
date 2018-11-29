@@ -1,0 +1,34 @@
+{
+	"portfolio": {
+		"systems": {
+			"item": "#"
+		},
+		"finance": {
+			"valuations": {
+				"item": "#"
+			},
+			"case-studies": {
+				"item": "#"
+			}
+		},
+		"software engineering": {
+			"item": "#"
+		},
+		"machine learning": {
+			"supervised learning": {
+
+			},
+			"unsupervised learning": {
+
+			}
+		},
+		"entrepreneurship": {
+			"startups": {
+
+			},
+			"case-studies": {
+
+			}
+		}
+	}
+}
