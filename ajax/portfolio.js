@@ -1,4 +1,5 @@
 var portfolio = {
+	'status': 'I am graduating in December.',
 	'contact': {
 		'email': 'bsudarshan(at)outlook(dot)com',
 		'twitter': '<a href="https://twitter.com/seanatyyz">@seanatyyz</a>',
@@ -14,16 +15,19 @@ var portfolio = {
 		'2015': 'strategy + tech consulting startup',
 		'2014': 'sales at private equity and VC consulting firm'
 	},
+	'technologies': {
+		'beginner': 'java, c',
+		'intermediate': 'python, r, vim, linux, javascript, latex',
+		'advanced': 'stata, vba, excel, html, css, powerpoint'
+	},
 	'finance': {
-		'valuations':
-		[
+		'valuations': [
 		'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a>',
 		'<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
 		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
 		]
 		,
-		'studies':
-		{
+		'studies': {
 		}
 	},
 	'software engineering': {

@@ -2,6 +2,10 @@ body > div.off-canvas-content > div.row {
   padding: 50px;
 }
 
-#my-info {
+html {
   background-color: #f9f8f6;
+}
+
+li {
+    list-style:none;
 }
