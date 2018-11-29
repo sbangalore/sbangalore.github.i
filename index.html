@@ -94,8 +94,6 @@ crossorigin="anonymous">
         }
       };
       var json_obj = $.parseJSON(JSON.stringify(portfolio));
-
-      console.log(json_obj['contact']);
       
       $.each(portfolio, function(i, item) {
         var re = new RegExp('[^"\t]+', 'g')
