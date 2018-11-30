@@ -27,6 +27,7 @@ var portfolio = {
 		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
 		],
 		'studies': {
+			'Economics': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
 		}
 	},
 	'software': {
