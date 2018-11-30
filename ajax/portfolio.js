@@ -25,14 +25,16 @@ var portfolio = {
 		'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a>',
 		'<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
 		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
-		]
-		,
+		],
 		'studies': {
 		}
 	},
-	'software engineering': {
+	'software': {
 	},
-	'machine learning': {
+	'data': {
+		'analytics': [
+		'<a href="Resources/shop_data.html">Shopify Data Science Challenge</a>'
+		],
 		'supervised-learning': {
 		},
 		'unsupervised-learning': {
@@ -45,8 +47,8 @@ var portfolio = {
 			'vimtrak': 'Vimtrak was a venture I co-built with a partner. We built the startup to serve elevator servicing clients by reducing elevator maintenance times by up to 50% through digitizing ticketing'
 		},
 		'cases': [
-		'<a href="../sbangalore.github.io/Resources/Images/tallink.pdf">Tallink Case Study</a>',
-		'<a href="../sbangalore.github.io/Resources/Images/lilly-ranbaxy-final.pdf">Lilly-Ranbaxy Case Study</a>'
+		'<a href="Resources/tallink.pdf">Tallink Case Study</a>',
+		'<a href="Resources/lilly-ranbaxy-final.pdf">Lilly-Ranbaxy Case Study</a>'
 		]
 	}
 };
