@@ -2,7 +2,7 @@ $.each(portfolio, function(i, item) {
     if (typeof item === 'object') {
       var re = new RegExp('[^"\t]+', 'g')
       var topic = re.exec(JSON.stringify(i))
-      $(".portfolio").append("<li><b>" + topic + "</b><ul id=" + topic + "></ul></li><br>");
+      $(".portfolio").append("<li><b>" + topic + "</b><ul class='head' id=" + topic + "></ul></li><br>");
       var topicHTML = "#" + topic;
 
       $.each(item, function(j, inside) {
@@ -23,3 +23,5 @@ $.each(portfolio, function(i, item) {
     $(".portfolio").append("<li><b>" + i + "</b> &nbsp; " + item + "</li><br>");
   };
 });
+
+

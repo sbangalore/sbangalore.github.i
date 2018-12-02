@@ -1,3 +1,14 @@
+body {
+	font-family: sans-serif;
+	width:75%;
+}
+
+.primary {
+	background-color: #4D90FE;
+	border-radius: 2px;
+	color: white;
+}
+
 body > div.off-canvas-content > div.row {
   padding: 50px;
 }
@@ -8,4 +19,12 @@ html {
 
 li {
     list-style:none;
+}
+
+#name > a {
+	color: #1155cc;
+}
+
+#name > a:hover {
+	text-decoration: underline;
 }
