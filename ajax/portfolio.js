@@ -25,14 +25,17 @@ var portfolio = {
 		'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a> => <a href="Resources/mlf-model.xlsx">financial model</a>',
 		'<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
 		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
-		]
-		,
+		],
 		'studies': {
+			'Economics': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
 		}
 	},
-	'software engineering': {
+	'software': {
 	},
-	'machine learning': {
+	'data': {
+		'analytics': [
+		'<a href="Resources/shop_data.html">Shopify Data Science Challenge</a>'
+		],
 		'supervised-learning': {
 		},
 		'unsupervised-learning': {
