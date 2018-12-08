@@ -13,7 +13,7 @@ var portfolio = {
 		'2017': 'SAAS startup, research assistant',
 		'2016': 'analytics at Philip Morris International',
 		'2015': 'strategy + tech consulting startup',
-		'2014': 'sales at private equity and VC consulting firm'
+		'2014': 'analysis, sales at private equity and VC consulting firm'
 	},
 	'technologies': {
 		'beginner': 'java, c',
@@ -22,7 +22,7 @@ var portfolio = {
 	},
 	'finance': {
 		'valuations': [
-		'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a>',
+		'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a> => <a href="Resources/mlf-model.xlsx">financial model</a>',
 		'<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
 		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
 		],
@@ -50,6 +50,11 @@ var portfolio = {
 		'cases': [
 		'<a href="Resources/tallink.pdf">Tallink Case Study</a>',
 		'<a href="Resources/lilly-ranbaxy-final.pdf">Lilly-Ranbaxy Case Study</a>'
+		]
+	},
+	'economics': {
+		'papers': [
+			'<a href="../sbangalore.github.io/Resources/france.pdf">Analysis of France’s Economic Growth from 1960 to 2005 using Growth Accounting Methods</a>'
 		]
 	}
 };
