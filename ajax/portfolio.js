@@ -9,6 +9,7 @@ var portfolio = {
 		'github': '<a href="https://github.com/sbangalore">sbangalore</a>'
 	},
 	'experience': {
+		'2019': 'central banking: financial markets',
 		'2018': 'machine learning and sales at Amazon',
 		'2017': 'SAAS startup, research assistant',
 		'2016': 'analytics at Philip Morris International',
@@ -17,7 +18,7 @@ var portfolio = {
 	},
 	'technologies': {
 		'beginner': 'java, c',
-		'intermediate': 'python, r, vim, linux, javascript, latex',
+		'intermediate': 'python, sql, r, vim, linux, bash, javascript, latex',
 		'advanced': 'stata, vba, excel, html, css, powerpoint'
 	},
 	'finance': {
