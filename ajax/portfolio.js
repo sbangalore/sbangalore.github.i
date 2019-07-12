@@ -1,5 +1,5 @@
 var portfolio = {
-	'status': 'I am graduating in December.',
+	'status': 'I am working at the Bank of Canada and finishing my MSc in Computer Science.',
 	'contact': {
 		'email': 'bsudarshan(at)outlook(dot)com',
 		'twitter': '<a href="https://twitter.com/seanatyyz">@seanatyyz</a>',
