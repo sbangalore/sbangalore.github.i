@@ -28,6 +28,7 @@ var portfolio = {
 		],
 		'studies': {
 			'Economics': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
+			'Securities Lending': '<a href="https://www.bankofcanada.ca/wp-content/uploads/2019/07/sdp2019-5.pdf">Securities lending ecology</a>'
 		}
 	},
 	'software': {
