@@ -28,8 +28,9 @@ var portfolio = {
 		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
 		],
 		'studies': {
-			'Economics': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
-			'Securities Lending': '<a href="https://www.bankofcanada.ca/wp-content/uploads/2019/07/sdp2019-5.pdf">Securities lending ecology</a>'
+			'French Economic Growth': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
+			'Securities Lending (RA)': '<a href="https://www.bankofcanada.ca/wp-content/uploads/2019/07/sdp2019-5.pdf">Securities lending ecology</a>',
+			'Arbitrage Strategies': '<a href="Resources/Arbitrage%20Strategies.pdf">Arbitrage Strategies</a>'
 		}
 	},
 	'software': {
