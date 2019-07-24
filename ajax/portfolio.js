@@ -31,10 +31,6 @@ var portfolio = {
 			'French Economic Growth': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
 			'Securities Lending (RA)': '<a href="https://www.bankofcanada.ca/wp-content/uploads/2019/07/sdp2019-5.pdf">Securities lending ecology</a>',
 			'Arbitrage Strategies': '<a href="Resources/Arbitrage%20Strategies.pdf">Arbitrage Strategies</a>'
-		},
-		'side-projects': {
-			'LCBO Chrome Extension': 'An extension to display wine ratings and price/vol in the LCBO. I hope to add an Alexa extension to this in the future.',
-			'Tinder/CMMS Style App': 'A stealth tinder-style application developed in React/Redux/GraphQL.'
 		}
 	},
 	'software': {
@@ -50,7 +46,9 @@ var portfolio = {
 	},
 	'entrepreneurship': {
 		'startups': {
-			'<a href="https://www.rhsclinics.com">rhs clinics</a>': 'This is a recent iniative with a co-founder to change how patients access healthcare worldwide; we hope to decrease medicare costs significantly',
+			'LCBO Chrome Extension': 'An extension to display wine ratings and price/vol in the LCBO. I hope to add an Alexa extension to this in the future.',
+			'Tinder/CMMS Style App': 'A stealth tinder-style application developed in React/Redux/GraphQL.',
+			'<a href="https://www.rhsclinics.com">rhs clinics</a>': 'This is a (currently) tabled iniative to change how patients access healthcare worldwide; we hope to decrease medicare costs significantly',
 			'cadence consulting': 'Cadence was a strategy consulting startup that I co-built with a partner. While initially pro-bono, I grew it to clients with national agendas',
 			'vimtrak': 'Vimtrak was a venture I co-built with a partner. We built the startup to serve elevator servicing clients by reducing elevator maintenance times by up to 50% through digitizing ticketing'
 		},
