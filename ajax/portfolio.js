@@ -23,14 +23,18 @@ var portfolio = {
 	},
 	'finance': {
 		'valuations': [
-		'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a> => <a href="Resources/mlf-model.xlsx">financial model</a>',
-		'<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
-		'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
+			'<a href="https://seekingalpha.com/article/4205771-29-percent-upside-maple-leaf-foods?source=all_articles_title">29% Upside In Maple Leaf Foods</a> => <a href="Resources/mlf-model.xlsx">financial model</a>',
+			'<a href="How To Make Money From The Sixth Republic - French Candidate Analysis 2017">How To Make Money From The Sixth Republic - French Candidate Analysis 2017</a>',
+			'<a href="https://seekingalpha.com/article/2694635-twilight-in-the-land-of-the-rising-sun-japanese-q3-contraction-implications-on-fx-markets?source=all_articles_title">Twilight In The Land Of The Rising Sun: Japanese Q3 Contraction Implications On FX Markets</a>'
 		],
 		'studies': {
 			'French Economic Growth': '<a href="Resources/french_growth.pdf">French economic growth analysis</a>',
 			'Securities Lending (RA)': '<a href="https://www.bankofcanada.ca/wp-content/uploads/2019/07/sdp2019-5.pdf">Securities lending ecology</a>',
 			'Arbitrage Strategies': '<a href="Resources/Arbitrage%20Strategies.pdf">Arbitrage Strategies</a>'
+		},
+		'side-projects': {
+			'LCBO Chrome Extension': 'An extension to display wine ratings and price/vol in the LCBO. I hope to add an Alexa extension to this in the future.',
+			'Tinder/CMMS Style App': 'A stealth tinder-style application developed in React/Redux/GraphQL.'
 		}
 	},
 	'software': {
